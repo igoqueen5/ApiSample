@@ -6,6 +6,6 @@ end
 
 def show
   @poem = Poem.find(params[:id])
-  render json: @poem
+  render json: @poems
 end
 end
